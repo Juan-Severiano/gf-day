@@ -1,0 +1,26 @@
+.modal-dialog {
+    width: 80vw!important;
+    margin: 0 auto;
+    .modal-body {
+        img {
+            height: 100%;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+ul.list-photos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+        padding: 5px;
+        img {
+            width: 150px;
+        }
+    }
+}

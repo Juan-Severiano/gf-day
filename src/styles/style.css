@@ -129,6 +129,33 @@ main.container-fluid#musics aside.text-container .artist-link h5:hover {
   color: #c0bebe;
 }
 
+.modal-dialog {
+  width: 80vw !important;
+  margin: 0 auto;
+}
+.modal-dialog .modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-dialog .modal-body img {
+  height: 100%;
+}
+
+ul.list-photos {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul.list-photos li {
+  padding: 5px;
+}
+ul.list-photos li img {
+  width: 150px;
+}
+
 body {
   background-color: #1E2834;
   color: #f0f0f0;

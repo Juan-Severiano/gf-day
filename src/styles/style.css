@@ -4,6 +4,7 @@ header {
   color: #fff;
   align-items: center;
   justify-content: center;
+  height: 25vh;
 }
 header img {
   width: 100px;
@@ -15,6 +16,43 @@ header ul {
 header ul li {
   font-family: "Architects Daughter";
   padding: 5px 10px;
+}
+
+main.container-fluid {
+  height: 70vh;
+  justify-content: center;
+}
+main.container-fluid .img {
+  height: 100%;
+  width: 30%;
+  border-radius: 20px;
+  background-image: url("/my-princess/photos/2.jpg");
+  background-size: cover;
+}
+main.container-fluid aside.text-container {
+  padding: 0 50px;
+}
+main.container-fluid aside.text-container form {
+  display: flex;
+  flex-direction: column;
+}
+main.container-fluid aside.text-container form label {
+  margin-bottom: 20px;
+}
+main.container-fluid aside.text-container form div {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+main.container-fluid aside.text-container form div input {
+  width: 80%;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  padding: 7px;
+}
+main.container-fluid aside.text-container form div .btn {
+  width: 20%;
+  border-radius: 0px 20px 20px 0px;
 }
 
 button.to-top-btn {
@@ -34,5 +72,4 @@ button.to-top-btn a i {
 body {
   background-color: #1E2834;
   color: #f0f0f0;
-  height: 200vh;
 }/*# sourceMappingURL=style.css.map */

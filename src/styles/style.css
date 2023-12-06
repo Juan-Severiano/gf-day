@@ -159,7 +159,7 @@ ul.list-photos li {
   padding: 5px;
 }
 ul.list-photos li img {
-  width: 150px;
+  width: 300px;
 }
 
 main#artist .image {
@@ -196,7 +196,7 @@ main#artist .content .description {
   font-family: "Rubik";
   line-height: 24px;
 }
-main#artist .content .description#dezembro {
+main#artist .content .description#dezembro, main#artist .content .description#tvgirl {
   line-height: 20px;
 }
 main#artist .content .audio-player {

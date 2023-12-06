@@ -1,0 +1,18 @@
+
+
+@media (max-width: 600px) {
+    main.container {
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+    }
+    main.container-fluid#musics {
+        display: flex;
+        flex-direction: column;
+    }
+    main#artist {
+        .content {
+            left: 20px;
+        }
+    }
+}

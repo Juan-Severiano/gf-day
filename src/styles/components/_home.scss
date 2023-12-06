@@ -1,14 +1,17 @@
 @import './header';
 
-main.container-fluid {
-    height: 70vh;
+main.container#home {
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
     justify-content: center;
     .img {
-        height: 100%;
-        width: 30%;
+        height: 80vh!important;
+        width: 80%!important;
         border-radius: 20px;
         background-image: url('/my-princess/photos/2.jpg');
         background-size: cover;
+        background-color: #fff;
     }
     aside.text-container {
         padding: 0 50px;

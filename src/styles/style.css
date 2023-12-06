@@ -21,39 +21,42 @@ header ul li .nav-link.disabled {
   color: #a0a0a0;
 }
 
-main.container-fluid {
-  height: 70vh;
+main.container#home {
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
   justify-content: center;
 }
-main.container-fluid .img {
-  height: 100%;
-  width: 30%;
+main.container#home .img {
+  height: 80vh !important;
+  width: 80% !important;
   border-radius: 20px;
   background-image: url("/my-princess/photos/2.jpg");
   background-size: cover;
+  background-color: #fff;
 }
-main.container-fluid aside.text-container {
+main.container#home aside.text-container {
   padding: 0 50px;
 }
-main.container-fluid aside.text-container form {
+main.container#home aside.text-container form {
   display: flex;
   flex-direction: column;
 }
-main.container-fluid aside.text-container form label {
+main.container#home aside.text-container form label {
   margin-bottom: 20px;
 }
-main.container-fluid aside.text-container form div {
+main.container#home aside.text-container form div {
   width: 100%;
   align-items: center;
   display: flex;
 }
-main.container-fluid aside.text-container form div input {
+main.container#home aside.text-container form div input {
   width: 80%;
   border-radius: 20px 0px 0px 20px;
   border: none;
   padding: 7px;
 }
-main.container-fluid aside.text-container form div .btn {
+main.container#home aside.text-container form div .btn {
   width: 20%;
   border-radius: 0px 20px 20px 0px;
 }
@@ -95,25 +98,27 @@ header ul li .nav-link.disabled {
   color: #a0a0a0;
 }
 
-main.container-fluid#musics {
+main.container#musics {
   height: 110vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-main.container-fluid#musics .img {
+main.container#musics .img {
   height: 100%;
-  width: 30%;
+  width: 50%;
   border-radius: 20px;
   background-image: url("/my-princess/photos/3.jpg");
   background-size: cover;
   position: sticky;
 }
-main.container-fluid#musics aside.text-container {
+main.container#musics aside.text-container {
   padding: 0 50px;
 }
-main.container-fluid#musics aside.text-container .link {
+main.container#musics aside.text-container .link {
   text-decoration: none !important;
 }
-main.container-fluid#musics aside.text-container .artist-link {
+main.container#musics aside.text-container .artist-link {
   margin: 5px 0;
   background-color: #0d131b;
   padding: 10px;
@@ -121,17 +126,17 @@ main.container-fluid#musics aside.text-container .artist-link {
   display: flex;
   align-items: center;
 }
-main.container-fluid#musics aside.text-container .artist-link img {
+main.container#musics aside.text-container .artist-link img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
-main.container-fluid#musics aside.text-container .artist-link h5 {
+main.container#musics aside.text-container .artist-link h5 {
   text-decoration: none !important;
   color: #f0f0f0;
 }
-main.container-fluid#musics aside.text-container .artist-link h5:hover {
+main.container#musics aside.text-container .artist-link h5:hover {
   color: #c0bebe;
 }
 
@@ -210,10 +215,24 @@ main#artist::after {
   top: 0;
   left: 0;
   min-height: 100vh;
-  min-width: 80vw;
+  min-width: 100vw;
   background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
 
+@media (max-width: 600px) {
+  main.container {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+  }
+  main.container-fluid#musics {
+    display: flex;
+    flex-direction: column;
+  }
+  main#artist .content {
+    left: 20px;
+  }
+}
 body {
   background-color: #1E2834;
   color: #f0f0f0;

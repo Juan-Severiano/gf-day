@@ -1,11 +1,13 @@
 @import './header';
 
-main.container-fluid#musics {
+main.container#musics {
     height: 110vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
     .img {
         height: 100%;
-        width: 30%;
+        width: 50%;
         border-radius: 20px;
         background-image: url('/my-princess/photos/3.jpg');
         background-size: cover;

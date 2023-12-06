@@ -17,6 +17,20 @@ header ul li {
   padding: 5px 10px;
 }
 
+button.to-top-btn {
+  border: none;
+  background: none;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}
+button.to-top-btn a {
+  color: #f0f0f0;
+}
+button.to-top-btn a i {
+  font-size: 32px;
+}
+
 body {
   background-color: #1E2834;
   color: #f0f0f0;

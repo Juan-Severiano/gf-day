@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import ToTop from "../components/ToTop"
 
 
 function NotFound() {
@@ -7,6 +8,7 @@ function NotFound() {
     <>
       <Header />
       <h1>404 Not Found</h1>
+      <ToTop />
     </>
   )
 }

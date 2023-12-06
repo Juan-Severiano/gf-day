@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import ToTop from "../components/ToTop"
 
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <>
       <Header />
       <h1>Vite + React</h1>
+      <ToTop />
     </>
   )
 }

@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import ToTop from "../components/ToTop"
 
 
 function Musics() {
@@ -7,6 +8,7 @@ function Musics() {
     <>
       <Header />
       <h1>Music</h1>
+      <ToTop />
     </>
   )
 }

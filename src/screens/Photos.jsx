@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import ToTop from "../components/ToTop"
 
 
 function Photos() {
@@ -7,6 +8,7 @@ function Photos() {
     <>
       <Header />
       <h1>Photos</h1>
+      <ToTop />
     </>
   )
 }

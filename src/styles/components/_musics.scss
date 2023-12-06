@@ -1,0 +1,38 @@
+@import './header';
+
+main.container-fluid#musics {
+    height: 110vh;
+    justify-content: center;
+    .img {
+        height: 100%;
+        width: 30%;
+        border-radius: 20px;
+        background-image: url('/my-princess/photos/3.jpg');
+        background-size: cover;
+        position: sticky;
+    }
+    aside.text-container {
+        padding: 0 50px;
+        a { text-decoration: none!important; }
+        .artist-link {
+            margin: 5px 0;
+            background-color: #0d131b;
+            padding: 10px;
+            border-radius: 60px;
+            display: flex;
+            align-items: center;
+            img {
+                width: 50px; height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            h5 {
+                text-decoration: none!important;
+                color: #f0f0f0;
+                &:hover {
+                    color: #c0bebe;
+                }
+            }
+        }
+    }
+}

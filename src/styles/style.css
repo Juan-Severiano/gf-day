@@ -69,6 +69,66 @@ button.to-top-btn a i {
   font-size: 32px;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
+header img {
+  width: 100px;
+  margin-top: 10px;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  font-family: "Architects Daughter";
+  padding: 5px 10px;
+}
+
+main.container-fluid#musics {
+  height: 110vh;
+  justify-content: center;
+}
+main.container-fluid#musics .img {
+  height: 100%;
+  width: 30%;
+  border-radius: 20px;
+  background-image: url("/my-princess/photos/3.jpg");
+  background-size: cover;
+  position: sticky;
+}
+main.container-fluid#musics aside.text-container {
+  padding: 0 50px;
+}
+main.container-fluid#musics aside.text-container a {
+  text-decoration: none !important;
+}
+main.container-fluid#musics aside.text-container .artist-link {
+  margin: 5px 0;
+  background-color: #0d131b;
+  padding: 10px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+}
+main.container-fluid#musics aside.text-container .artist-link img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+main.container-fluid#musics aside.text-container .artist-link h5 {
+  text-decoration: none !important;
+  color: #f0f0f0;
+}
+main.container-fluid#musics aside.text-container .artist-link h5:hover {
+  color: #c0bebe;
+}
+
 body {
   background-color: #1E2834;
   color: #f0f0f0;

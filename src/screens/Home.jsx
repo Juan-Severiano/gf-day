@@ -9,7 +9,6 @@ function Home() {
       <Header />
       <ToTop />
       <main className="container-fluid row row-cols-2">
-        {/* <img className="col" src="/my-princess/photos/2.jpg" alt="" /> */}
         <div className="img"></div>
         <aside className="col text-container">
           <p>minamur, completamos 2 meses, caraca, que incrível poder dizer que tenho a melhor, a maior, a mais magnífica namorada do mundo todinho.</p>

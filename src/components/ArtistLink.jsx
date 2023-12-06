@@ -1,9 +1,9 @@
-export default function ArtistLink() {
+export default function ArtistLink(props) {
     return (
-        <a href="">
+        <a href={`/musics/artist/${props.slug}`}>
             <div className="artist-link">
-                <img src="/artists/baco.png" alt="" />
-                <h5>Artist name</h5>
+                <img src={`/artists/${props.slug}.png`} alt="" />
+                <h5>{props.name}</h5>
             </div>
         </a>
     )

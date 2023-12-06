@@ -15,6 +15,9 @@ header {
         li {
             font-family: 'Architects Daughter';
             padding: 5px 10px;
+            .nav-link.disabled {
+                color: #a0a0a0;
+            }
         }
     }
 }

@@ -17,6 +17,9 @@ header ul li {
   font-family: "Architects Daughter";
   padding: 5px 10px;
 }
+header ul li .nav-link.disabled {
+  color: #a0a0a0;
+}
 
 main.container-fluid {
   height: 70vh;
@@ -87,6 +90,9 @@ header ul {
 header ul li {
   font-family: "Architects Daughter";
   padding: 5px 10px;
+}
+header ul li .nav-link.disabled {
+  color: #a0a0a0;
 }
 
 main.container-fluid#musics {

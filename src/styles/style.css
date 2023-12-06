@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 100px;
+  margin-top: 10px;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  font-family: "Architects Daughter";
+  padding: 5px 10px;
+}
+
+body {
+  background-color: #1E2834;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    ul {
+        list-style: none;
+        li {
+            font-family: 'Architects Daughter';
+            padding: 5px 10px;
+        }
+    }
+}

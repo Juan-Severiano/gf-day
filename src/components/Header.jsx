@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom"
+
 export default function Header(props) {
     if (props.false == true) {
         return (
             <header className="container" id="header">
                 <div className="logo">
-                    <a href="/"><img src="/logo.png" alt="" /></a>
+                    <Link to="/"><img src="/logo.png" alt="" /></Link>
                 </div>
                 <nav className="nav navbar-nav">
                     <ul className="nav-bar navbar">
-                        <li className="nav-item"><a className="nav-link disabled" href="/musics">Musics</a></li>
-                        <li className="nav-item"><a className="nav-link disabled" href="/photos">Photos</a></li>
+                        <li className="nav-item"><Link className="nav-link disabled" to="/musics">Musics</Link></li>
+                        <li className="nav-item"><Link className="nav-link disabled" to="/photos">Photos</Link></li>
                     </ul>
                 </nav>
             </header>
@@ -17,12 +19,12 @@ export default function Header(props) {
     return (
         <header className="container" id="header">
             <div className="logo">
-                <a href="/"><img src="/logo.png" alt="" /></a>
+                <Link to="/"><img src="/logo.png" alt="" /></Link>
             </div>
             <nav className="nav navbar-nav">
                 <ul className="nav-bar navbar">
-                    <li className="nav-item"><a className="nav-link " href="/musics">Musics</a></li>
-                    <li className="nav-item"><a className="nav-link " href="/photos">Photos</a></li>
+                    <li className="nav-item"><Link className="nav-link " to="/musics">Musics</Link></li>
+                    <li className="nav-item"><Link className="nav-link " to="/photos">Photos</Link></li>
                 </ul>
             </nav>
         </header>

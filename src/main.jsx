@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/musics' element={<Musics />} />
-        <Route path='/musics/artist/:name' element={<Artist />} />
+        <Route path='/musics/artist/:id' element={<Artist />} />
         <Route path='/photos' element={<Photos />} />
         <Route path='*' element={<NotFound />} />
       </Routes>

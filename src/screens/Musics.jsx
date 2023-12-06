@@ -12,8 +12,8 @@ function Musics() {
       <main id="musics" className="container-fluid row row-cols-2">
         <aside className="col text-container">
           <p>eita caraca, agora vem um bocado de músicas e artistas mo daora, bo ver direitinho aqui né, vai que tem algo a mais, nunca se sabe</p>
-          { listArtists.map((artist, index) => {
-            return <ArtistLink key={index} {...artist} />
+          { listArtists.map((artist) => {
+            return <ArtistLink key={artist.id} {...artist} />
           }) }
         </aside>
         <div className="img"></div>

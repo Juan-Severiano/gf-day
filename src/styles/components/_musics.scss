@@ -13,7 +13,7 @@ main.container-fluid#musics {
     }
     aside.text-container {
         padding: 0 50px;
-        a { text-decoration: none!important; }
+        .link { text-decoration: none!important; }
         .artist-link {
             margin: 5px 0;
             background-color: #0d131b;

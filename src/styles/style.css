@@ -110,7 +110,7 @@ main.container-fluid#musics .img {
 main.container-fluid#musics aside.text-container {
   padding: 0 50px;
 }
-main.container-fluid#musics aside.text-container a {
+main.container-fluid#musics aside.text-container .link {
   text-decoration: none !important;
 }
 main.container-fluid#musics aside.text-container .artist-link {
@@ -195,6 +195,9 @@ main#artist .content .artist-name {
 main#artist .content .description {
   font-family: "Rubik";
   line-height: 24px;
+}
+main#artist .content .description#dezembro {
+  line-height: 20px;
 }
 main#artist .content .audio-player {
   background-color: #0b111a;

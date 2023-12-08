@@ -1,0 +1,15 @@
+.container-md#not-found {
+    background-image: url('/not-found2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 450px;
+}
+
+@media (max-width: 600px) {
+    .container-md#not-found {
+        height: 200px;
+        width: 270px;
+    }
+        
+}
